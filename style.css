@@ -20,6 +20,11 @@ h1 {
 h2 {
   margin-bottom: 12px;
 }
+a {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
 hr {
   border: 1px solid white;
 }
@@ -75,6 +80,9 @@ hr {
     font-size: 1.5rem;
   }
   h2 {
+    font-size: 1.3rem;
+  }
+  a {
     font-size: 1.3rem;
   }
   .out-section {

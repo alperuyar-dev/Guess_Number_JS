@@ -14,6 +14,7 @@ function guessNumber() {
   lifeText.innerHTML = "Life: " + life;
 
   if (randomNum == inputNumber) {
+    easter.style.display = "none";
     result_Text.style.display = "block";
     result_Text.innerHTML = "WELL DONE";
     guessButton.style.display = "none";
@@ -35,6 +36,7 @@ function guessNumber() {
     guessButton.style.display = "none";
     tryButton.style.display = "block";
     result_Text.style.display = "block";
+    easter.style.display = "none";
     result_Text.innerHTML = "Good Try";
   }
 
