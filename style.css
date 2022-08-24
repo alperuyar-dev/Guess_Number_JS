@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  background-color: #fa5252;
+  color: white;
+}
+h1 {
+  margin-bottom: 12px;
+  text-align: center;
+}
+h2 {
+  margin-bottom: 12px;
+}
+hr {
+  border: 1px solid white;
+}
+.out-section {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  width: 600px;
+  border-radius: 8px;
+  background-color: #f03e3e;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.666);
+}
+#life {
+  margin-top: 12px;
+  text-align: end;
+}
+#input-number {
+  align-self: center;
+  border: none;
+  outline: auto;
+  width: 100%;
+  padding: 8px;
+  font-size: 2rem;
+  border-radius: 5px;
+}
+#guess-button {
+  align-self: center;
+  margin-top: 18px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+#try-button {
+  align-self: center;
+  margin-top: 18px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+#result {
+  align-self: center;
+  margin-top: 16px;
+}
+
+@media only screen and (max-width: 700px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  .out-section {
+    width: 300px;
+  }
+  #try-button,
+  #guess-button {
+    font-size: 1rem;
+  }
+  #input-number {
+    font-size: 2rem;
+  }
+}
